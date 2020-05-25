@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.function.Function;
-import java.util.function.Supplier;
 
 @Component @Lazy
 public class Inventory<T> {
