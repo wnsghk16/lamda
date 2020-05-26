@@ -28,6 +28,6 @@ public class Inventory<T> {
         inventory.clear();
     }
     public void newInventory(){
-        inventory = new ArrayList<T>();
+        inventory = new ArrayList<>();
     }
 }
